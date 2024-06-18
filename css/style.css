@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: darkblue;
+}
+
+.header-content{
+    background-color: red;
+    border: 1px solid black;
+    height: 75px;
+}
+
+.content{
+    background-color: red;
+    border: 1px solid black;
+    height: 150px;
+}
+
+.jumbo-content{
+    height: 300px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+#jumbotron, 
+#about-us {
+    background-color: yellow;
+}
+
+.top-footer{
+    background-color: rgb(88, 88, 190);
+}
+
+.bottom-footer{
+    background-color: darkblue;
+}
