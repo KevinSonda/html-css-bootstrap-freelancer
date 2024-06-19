@@ -14,21 +14,26 @@ header{
     height: 75px;
 }
 
-.content{
-    background-color: red;
-    border: 1px solid black;
-    height: 150px;
-}
+
 
 .jumbo-content{
-    height: 300px;
-    background-color: red;
-    border: 1px solid black;
+    text-align: center;
+    color: white;
 }
 
 #jumbotron, 
-#about-us {
-    background-color: yellow;
+#about-us,
+.btn-green {
+    background-color: #1ABC9C;
+}
+
+.btn-green{
+    color: white;
+}
+
+.btn-green:hover{
+    background-color: #1ABC9C;
+    color: white;
 }
 
 .top-footer{
@@ -37,4 +42,67 @@ header{
 
 .bottom-footer{
     background-color: darkblue;
+}
+/* classi diverse */
+
+.navbar a{
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.jumbo-content img {
+    max-width: 300px;
+}
+
+.lines:after,
+.lines:before {
+    content: " ";
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+}
+
+.jumbo-content .lines:after,
+.jumbo-content .lines:before,
+#about-us .lines:after,
+#about-us .lines:before{
+    background-color: white;
+}
+
+#portfolio .lines:after,
+#portfolio .lines:before,
+#contact-form .lines:after,
+#contact-form .lines:before {
+    background-color: black;
+}
+
+.content img{
+    border-radius: 20px;
+}
+
+#about-us .btn-outline-light{
+    color: white;
+}
+
+#about-us .btn-outline-light:hover{
+    color: black;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.social i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 40px 20px;
 }
